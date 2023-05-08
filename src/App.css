@@ -1,0 +1,24 @@
+.back-button {
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.play-circle {
+    text-align: right;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    display: inline;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
