@@ -1,6 +1,5 @@
 import React from 'react'
 import PrayerPageImage from '../components/PrayerPage/PrayerPageImage'
-import 
 
 
 function PrayerPage() {
