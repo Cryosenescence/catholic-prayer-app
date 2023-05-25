@@ -1,13 +1,25 @@
+body {
+    background-color: #052021;
+    color: white
+}
+
+.lighter {
+    opacity: 50%;
+}
+
+
 .back-button {
     text-align: left;
     margin-top: 2rem;
     margin-left: 2rem;
+    color: white
 }
 
 .play-circle {
     text-align: right;
     margin-top: 2rem;
     margin-right: 2rem;
+    color: white
 }
 
 h1 {
@@ -15,6 +27,7 @@ h1 {
     font-weight: lighter;
     display: inline;
     text-align: center;
+    color: white
 }
 
 .wrapper {

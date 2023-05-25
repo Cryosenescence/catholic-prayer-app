@@ -1,9 +1,13 @@
 import { PlayCircle } from 'react-feather'
-import React from 'react'
+import React, { useState } from 'react'
 
 function AudioButton() {
+    const [play, setPlay] = useState(false);
+
   return (
-    <span className='play-circle'><PlayCircle/></span>
+    <span className={play ? 'play-circle' : 'play-circle lighter'} onClick={() => setPlay(!play)}>
+        <PlayCircle/>
+        </span>
   )
 }
 
